@@ -1,0 +1,48 @@
+#### outputs
+# 7 segment display
+# seg[6] is segment G; seg[0] is segment A
+NET "seg[6]" LOC = V4;
+NET "seg[5]" LOC = T9;
+NET "seg[4]" LOC = V9;
+NET "seg[3]" LOC = N5;
+NET "seg[2]" LOC = P6;
+NET "seg[1]" LOC = R3;
+NET "seg[0]" LOC = T3;
+# onBoard Leds
+NET "insert_coin" 	LOC = U18;
+NET "dispense" 		LOC = M14;
+NET "money_return" 	LOC = N14;
+NET "sClk" 				LOC = N12;
+
+
+#### inputs
+# clock and reset
+NET "clk" LOC = "L15";
+NET "rst" LOC = "T15";
+# onBoard PUSH BUTTONS 
+NET "fifty" LOC = P4;
+NET "dollar" LOC = F5;
+NET "cancel" LOC = F6;
+ 
+# I/O standard
+NET "seg[6]" IOSTANDARD = LVCMOS25;
+NET "seg[5]" IOSTANDARD = LVCMOS25;
+NET "seg[4]" IOSTANDARD = LVCMOS25;
+NET "seg[3]" IOSTANDARD = LVCMOS25;
+NET "seg[2]" IOSTANDARD = LVCMOS25;
+NET "seg[1]" IOSTANDARD = LVCMOS25;
+NET "seg[0]" IOSTANDARD = LVCMOS25;
+
+NET "insert_coin" 	IOSTANDARD = LVCMOS25;
+NET "dispense" 		IOSTANDARD = LVCMOS25;
+NET "money_return" 	IOSTANDARD = LVCMOS25;
+NET "sClk" 				IOSTANDARD = LVCMOS25;
+
+NET "clk" 				IOSTANDARD = LVCMOS25;
+NET "rst" 				IOSTANDARD = LVCMOS25;
+
+NET "fifty" 			IOSTANDARD = LVCMOS25;
+NET "dollar" 			IOSTANDARD = LVCMOS25;
+NET "cancel" 			IOSTANDARD = LVCMOS25;
+
+  
